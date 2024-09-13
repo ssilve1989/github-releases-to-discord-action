@@ -1,0 +1,10 @@
+name: Github Releases to Discord
+author: ssilve1989
+description: Publish a GitHub Release to Disord via Webhook
+inputs:
+  webhook-url:
+    description: Discords webhook url. Use GH repository secrets to provide this
+    required: true
+runs:
+  using: node20
+  main: dist/index.js
