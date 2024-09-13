@@ -1,0 +1,10 @@
+{
+  "eventName": "release",
+  "payload": {
+    "release": {
+      "body": "",
+      "name": "v1.16.0",
+      "html_url": "https://github.com/ssilve1989/ulti-project/releases/tag/v1.16.0"
+    }
+  }
+}
