@@ -6,5 +6,5 @@ inputs:
     description: Discords webhook url. Use GH repository secrets to provide this
     required: true
 runs:
-  using: node20
+  using: node24
   main: dist/index.js
