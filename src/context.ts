@@ -1,6 +1,6 @@
-import core from '@actions/core';
-import github from '@actions/github';
-import type { ReleasePublishedEvent } from '@octokit/webhooks-definitions/schema.js';
+import * as core from '@actions/core';
+import * as github from '@actions/github';
+import type { ReleasePublishedEvent } from '@octokit/webhooks-types';
 import { exitWithError } from './utils.js';
 
 export interface ReleaseContext {

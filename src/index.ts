@@ -1,4 +1,4 @@
-import core from '@actions/core';
+import * as core from '@actions/core';
 import { getContext } from './context.js';
 import { exitWithError } from './utils.js';
 
